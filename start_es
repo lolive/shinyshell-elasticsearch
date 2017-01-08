@@ -1,0 +1,5 @@
+name_params ES_DIR
+nc -z localhost  9200 && echo "ES already running. Exiting..." && return
+echo "Launching ES"
+${ES_DIR}/bin/elasticsearch 1>/dev/null &
+wget --retry-connrefused --no-check-certificate -O /dev/null -T 60 http://localhost:9200 2>/dev/null && echo "Done."
