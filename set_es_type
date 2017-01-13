@@ -1,0 +1,2 @@
+name_params a_ES_TYPE
+export ES_TYPE=${a_ES_TYPE}

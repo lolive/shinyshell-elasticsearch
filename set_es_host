@@ -1,0 +1,2 @@
+name_params A_ES_HOST
+export ES_HOST=${A_ES_HOST}

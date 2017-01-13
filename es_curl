@@ -1,0 +1,8 @@
+name_params METHOD ES_HOST ES_URL
+
+if [[ $ES_URL =~ .*\?.* ]]; then 
+ local AS_YAML="&format=yaml"
+else
+ local AS_YAML="?format=yaml"
+fi
+echo curl -X ${METHOD} 'http://localhost:9200'${ES_URL}${AS_YAML}

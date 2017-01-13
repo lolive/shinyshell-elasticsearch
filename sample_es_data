@@ -1,0 +1,3 @@
+name_param ES_INDEX ES_TYPE
+local METHOD='GET'
+es_curl /${ES_INDEX}/${ES_TYPE}/_search

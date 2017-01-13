@@ -1,0 +1,2 @@
+name_params a_ES_INDEX
+export ES_INDEX=${a_ES_INDEX}
