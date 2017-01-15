@@ -1,4 +1,5 @@
 This is package elasticsearch of Shinyshell.
+
 This package contains the following functions:
 
 $ es_curl METHOD ES_HOST ES_URL : 
