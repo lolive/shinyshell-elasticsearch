@@ -2,8 +2,6 @@ This is package elasticsearch of Shinyshell.
 
 This package contains the following functions:
 
-$ elasticsearch  : ""
-
 $ es_curl METHOD ES_HOST ES_URL : ""
 
 $ install_es ES_DIR : "Download ElasticSearch and install it in $ES_DIR."
