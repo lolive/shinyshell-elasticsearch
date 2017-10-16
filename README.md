@@ -1,3 +1,5 @@
+# Package "Shinyshell-elasticsearch":
+
 
 $ es_curl METHOD ES_HOST ES_URL : ""
 
@@ -23,6 +25,8 @@ $ start_es ES_DIR : ""
 
 $ stop_es  : ""
 
+
+This package contains the following functions:
 
 
 ## es_curl METHOD ES_HOST ES_URL :
