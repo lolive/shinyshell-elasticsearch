@@ -35,6 +35,8 @@ This package contains the following functions:
 
 ## install_es ES_DIR :
 
+Download and install ElasticSearch
+
 Download ElasticSearch and install it in $ES_DIR.
 
 
